@@ -11,6 +11,34 @@
     height: 1200;
 }
 
+#menu{
+    text-align: end;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1300px){
+    .#section{
+        width: 1300px;
+        height: 1100px;
+    }
+}
+
+
+
+
+
 
 
 
@@ -20,8 +48,21 @@
         text-align: center;
     }
 
-    #section1{
-        
-    }
+    
 
 }
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
