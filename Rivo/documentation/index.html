@@ -1,0 +1,2650 @@
+    <!doctype html>  
+    <!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+    <!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+    <!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+    <!--[if (gt IE 7)|!(IE)]><!-->
+    <html lang="en-us"><!--<![endif]-->
+    <head>
+    	<meta charset="utf-8">
+    	
+    	<title>Rivo</title>
+    	
+    	<meta name="description" content="">
+    	<meta name="author" content="FortunaTheme">
+    	<meta name="copyright" content="FortunaTheme">
+    	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    	<meta name="date" content="2019-02-20T00:00:00+01:00">
+    	
+    	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+    	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+    	
+    	
+    	<script src="assets/js/jquery.js"></script>
+    	
+    	<script src="assets/js/jquery.scrollTo.js"></script>
+    	<script src="assets/js/jquery.easing.js"></script>
+    	
+    	<script>document.createElement('section');var duration='500',easing='swing';</script>
+    	<script src="assets/js/script.js"></script>
+    	
+    	<style>
+    		html{background-color:#EEEEEE;color:#383838;}
+    		::-moz-selection{background:#333636;color:#9C9C9C;}
+    		::selection{background:#333636;color:#9C9C9C;}
+    		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+    		a{color:#00004D;}
+    		.btn {
+    			border-radius:3px;
+    		}
+    		.btn-primary {
+    			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+    			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+    			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+    			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+    			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+    			  background-image: linear-gradient(top, #008C9E, #006673);
+    			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+    			  border-color: #006673 #006673 #bfbfbf;
+    			  color:#FFFFFF;
+    		}
+    		.btn-primary:hover,
+    		.btn-primary:active,
+    		.btn-primary.active,
+    		.btn-primary.disabled,
+    		.btn-primary[disabled] {
+    		  border-color: #008C9E #008C9E #bfbfbf;
+    		  background-color: #006673;
+    		}
+    		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+    		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+    		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+    		#documenter_sidebar ul{border-top:1px solid #212424;}
+    		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+    		#documenter_sidebar ul a:hover{background:#333636;color:#9C9C9C;border-top:1px solid #333636;}
+    		#documenter_sidebar ul a.current{background:#333636;color:#9C9C9C;border-top:1px solid #333636;}
+    		#documenter_copyright{display:block !important;visibility:visible !important;}
+    		pre{
+    			max-height: 300px;
+    			overflow: auto;
+    		}
+    	</style>
+    	
+    </head>
+    <body class="documenter-project-rivo">
+    	<div id="documenter_sidebar">
+    		<a href="#documenter_cover" id="documenter_logo"></a>
+    		<ul id="documenter_nav">
+    			<li><a class="current" href="#documenter_cover">Start</a></li>
+    				
+    			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+    			<li><a href="#css_files_and_structure" title="CSS Files and Structure">CSS Files and Structure</a></li>
+    			<li><a href="#javascript" title="JavaScript">JavaScript</a></li>
+    			<li><a href="#mailchimp_subscription_form" title="MailChimp Subscription Form">MailChimp Subscription Form</a></li>
+    			<li><a href="#ajax_php_contact_form" title="Ajax PHP Contact Form">Ajax PHP Contact Form</a></li>
+    			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+    		</ul>
+    		<div id="documenter_copyright">Copyright FortunaTheme 2019<br>
+    		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+    		</div>
+    	</div>
+    	<div id="documenter_content">
+    	<section id="documenter_cover">
+    	<h1>Rivo</h1>
+    	
+    	<div id="documenter_buttons">
+    		
+    	</div>
+    	<hr>
+    	<ul>
+    	<li>created: 02/19/2019</li>
+    	<li>latest update: 02/20/2019</li>
+    	<li>by: FortunaTheme</li>
+    	
+    	<li>email: <a href="mailto:&#102;&#111;&#114;&#116;&#117;&#110;&#97;&#46;&#116;&#104;&#101;&#109;&#101;&#50;&#48;&#49;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#102;&#111;&#114;&#116;&#117;&#110;&#97;&#46;&#116;&#104;&#101;&#109;&#101;&#50;&#48;&#49;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+    	</ul>
+    	<p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+    	</section>
+    	
+    	<section id="html_structure">
+    	<div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+    <h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+    	Preloader</h1>
+    <pre class="prettyprint lang-html linenums">
+           &lt;!-- Start Preloader --&gt;
+
+            &lt;div class=&quot;preloader&quot;&gt;
+
+                &lt;div class=&quot;preloader-img&quot;&gt;&lt;/div&gt;
+
+            &lt;/div&gt;
+
+            &lt;!-- End Preloader --&gt;</pre>
+    <p>
+    	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">If you want to use your own preloader,open reset.css file.Find .preloader-img and change the url of background-image.</span></p>
+    <p>
+    	&nbsp;</p>
+    <h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+    	Header</h1>
+    <pre class="prettyprint lang-html linenums">
+            &lt;!--Start Header--&gt;
+
+            &lt;header&gt;
+
+                &lt;div class=&quot;logo-area&quot;&gt;
+
+                    &lt;a href=&quot;index.html&quot; class=&quot;logo&quot;&gt;
+
+                        &lt;img src=&quot;images/logo.png&quot; alt=&quot;logo&quot;&gt;
+
+                    &lt;/a&gt;
+
+                &lt;/div&gt;
+
+                &lt;div class=&quot;header-info-area&quot;&gt;
+
+                    &lt;a class=&quot;info-btn&quot; id=&quot;header-info-btn&quot; href=&quot;#header-info-bar&quot;&gt;
+
+                        &lt;span class=&quot;top&quot;&gt;&lt;/span&gt;
+
+                        &lt;span class=&quot;middle&quot;&gt;&lt;/span&gt;
+
+                        &lt;span class=bottom&gt;&lt;/span&gt;
+
+                    &lt;/a&gt;
+
+                    &lt;div id=&quot;header-info-bar&quot;&gt;
+
+                        &lt;div class=&quot;close-animatedModal close-header-info-bar&quot;&gt;
+
+                            &lt;i class=&quot;fas fa-times&quot;&gt;&lt;/i&gt;
+
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;modal-content&quot;&gt;
+
+                            &lt;nav class=&quot;menu&quot; id=&quot;menu&quot;&gt;
+
+                                &lt;ul id=&quot;mainMenu&quot;&gt;
+
+                                    &lt;li data-menuanchor=&quot;home&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+
+                                    &lt;li data-menuanchor=&quot;about&quot;&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+
+                                    &lt;li data-menuanchor=&quot;service&quot;&gt;&lt;a href=&quot;#service&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+
+                                    &lt;li data-menuanchor=&quot;portfolio&quot;&gt;&lt;a href=&quot;#portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+
+                                    &lt;li data-menuanchor=&quot;client-testimonial&quot;&gt;&lt;a href=&quot;#client-testimonial&quot;&gt;Testimonial&lt;/a&gt;&lt;/li&gt;
+
+                                    &lt;li data-menuanchor=&quot;blog&quot;&gt;&lt;a href=&quot;#blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+
+                                    &lt;li data-menuanchor=&quot;contact&quot;&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+
+                                &lt;/ul&gt;
+
+                            &lt;/nav&gt;
+
+                            &lt;!--Start Newsletter area--&gt;
+
+                            &lt;div class=&quot;newsletter&quot; id=&quot;newsletter&quot;&gt;
+
+                                &lt;div class=&quot;container&quot;&gt;
+
+                                    &lt;div class=&quot;row&quot;&gt;
+
+                                        &lt;h5&gt;Get Updates:&lt;/h5&gt;
+
+                                        &lt;div class=&quot;newsletter-form&quot;&gt;
+
+                                            &lt;form id=&quot;mc-form&quot;&gt;
+
+                                                &lt;input type=&quot;email&quot; id=&quot;mc-email&quot; class=&quot;newsletter-email&quot; placeholder=&quot;Type your email here&quot;&gt;
+
+                                                &lt;button type=&quot;submit&quot; class=&quot;submit-btn&quot;&gt;
+
+                                                    &lt;span&gt;Subscribe&lt;/span&gt;
+
+                                                &lt;/button&gt;
+
+                                                &lt;label for=&quot;mc-email&quot;&gt;&lt;/label&gt;
+
+                                            &lt;/form&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                            &lt;!--End Newsletter area--&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+
+            &lt;/header&gt;
+
+            &lt;!--End Header--&gt;</pre>
+    <div>
+    	<span style="color: rgb(46, 46, 46); font-family: Arial, verdana, arial, sans-serif;">To use your own logo ,find the class &quot;logo&quot; and write the directory of your logo in img tag.&nbsp;</span><span style="color: rgb(46, 46, 46); font-family: Arial, verdana, arial, sans-serif;">You can add your mailchimp subscription form url here. To know how to do it,click&nbsp;</span><a href="#mailchimp_subscription_form" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(0, 2, 38); cursor: pointer;">here</a></div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    <div><h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">
+        WELCOME SECTION</h1>
+    <p>
+        There are eight different background type in &quot;Rivo&quot; welcome section.</p>
+    <h2>
+        Image-Deafult</h2>
+    <pre class="prettyprint lang-html linenums">
+            &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;image-bg&quot; id=&quot;welcome-image-area&quot;&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+    <div>
+        <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">To use your own background image in this section, find the class &quot;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; background-color: rgb(238, 238, 238); color: rgb(46, 46, 46);">.welcome-area .image-bg&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">in &quot;style.css&quot; and change the directroy of background.</span></div>
+    <div>
+        &nbsp;</div>
+    <h2>
+        <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">Particle Background</span></h2>
+    <pre class="prettyprint lang-html linenums">
+            &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;particle-bg &quot; id=&quot;welcome-image-area&quot;&gt;
+
+                    &lt;div id=&quot;particles-js&quot;&gt;&lt;/div&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+    <div>
+        <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">To use your own background image in this section, find the class &quot;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; background-color: rgb(238, 238, 238); color: rgb(46, 46, 46);">.welcome-area .particle-bg&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">in &quot;style.css&quot; and change the directroy of background.</span></div>
+    <div>
+        &nbsp;</div>
+    <div>
+        <h2>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">Snow Background</span></h2>
+        <pre class="prettyprint lang-html linenums">
+    &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;snow-bg &quot; id=&quot;welcome-image-area&quot;&gt;
+
+                    &lt;div id=&quot;particles-js&quot;&gt;&lt;/div&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+        <div>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">To use your own background image in this section, find the class &quot;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; background-color: rgb(238, 238, 238); color: rgb(46, 46, 46);">.welcome-area .snow-bg&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">in &quot;style.css&quot; and change the directroy of background.</span></div>
+    </div>
+    <div>
+        &nbsp;</div>
+    <div>
+        <h2>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">Square Background</span></h2>
+        <pre class="prettyprint lang-html linenums">
+    &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;square-bg &quot; id=&quot;welcome-image-area&quot;&gt;
+
+                    &lt;div id=&quot;particles-js&quot;&gt;&lt;/div&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+        <p>
+            To use your own background image in this section, find the class &quot;<span style="font-size: 12px; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; background-color: rgb(238, 238, 238); color: rgb(46, 46, 46);">.welcome-area .square-bg&quot;&nbsp;</span><span style="font-size: 12px; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">in &quot;style.css&quot; and change the directroy of background.</span></p>
+        <h2>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">Birds Background</span></h2>
+        <pre class="prettyprint lang-html linenums">
+            &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;bird vanta-bg&quot; id=&quot;welcome-vanta-area&quot;&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+        <p>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">To use your own background image in this section, find the class &quot;.bird.vanta-bg</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; background-color: rgb(238, 238, 238); color: rgb(46, 46, 46);">&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">in &quot;style.css&quot; and change the directroy of background.</span></p>
+        <h2>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">Cloud Background</span></h2>
+        <pre class="prettyprint lang-html linenums">
+            &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;cloud vanta-bg&quot; id=&quot;welcome-vanta-area&quot;&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+        <div>
+            You can change the background colors from &quot;main.js&quot;. Find &quot;VANTA.CLOUDS({&quot; and modify the colors.</div>
+            <div>
+        &nbsp;</div>
+        <h2>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">Fog Background</span></h2>
+        <pre class="prettyprint lang-html linenums">
+            &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;vanta-bg fog&quot; id=&quot;welcome-vanta-area&quot;&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+        <div>
+            You can change the background colors from &quot;main.js&quot;. Find &quot;VANTA.FOG({&quot; and modify the colors.</div>
+            <div>
+        &nbsp;</div>
+        <h2>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); background-color: rgb(238, 238, 238);">Wave Background</span></h2>
+    </div>
+    <pre class="prettyprint lang-html linenums">
+            &lt;!--Start Welcome Section--&gt;
+
+            &lt;section class=&quot;welcome-area home animated-text section pp-scrollable&quot; id=&quot;welcome-area&quot;&gt;
+
+                    &lt;div class=&quot;vanta-bg waves&quot; id=&quot;welcome-vanta-area&quot;&gt;
+
+                        &lt;div class=&quot;content-container&quot;&gt;
+
+                            &lt;div class=&quot;overlayImg&quot;&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;HOME&lt;/p&gt;&lt;/div&gt;
+
+                            &lt;div class=&quot;display-table&quot;&gt;
+
+                                &lt;div class=&quot;display-content&quot;&gt;
+
+                                    &lt;div class=&quot;container&quot;&gt;
+
+                                        &lt;div class=&quot;row&quot;&gt;
+
+                                            &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                                &lt;div class=&quot;welcome-text&quot;&gt;
+
+                                                    &lt;div class=&quot;type-wrap&quot;&gt;
+
+                                                        &lt;div id=&quot;typed-strings&quot;&gt;
+
+                                                            &lt;h1&gt;I&#39;m &lt;span&gt;Kevin Watson&lt;/span&gt;&lt;/h1&gt;
+
+                                                            &lt;h1&gt;I&#39;m a &lt;span&gt;Designer&lt;/span&gt;&lt;/h1&gt;
+
+                                                        &lt;/div&gt;
+
+                                                        &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
+
+                                                    &lt;/div&gt;
+
+                                                    &lt;p&gt;
+
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.&lt;/p&gt;
+
+                                                    &lt;div class=&quot;social-icons&quot;&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+                                                    &lt;/div&gt;
+
+                                                &lt;/div&gt;
+
+                                            &lt;/div&gt;
+
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+
+                    &lt;/div&gt;
+
+            &lt;/section&gt;
+
+            &lt;!--End Welcome Section--&gt;</pre>
+    <p>
+        You can change the background colors from &quot;main.js&quot;. Find &quot;VANTA.WAVES({&quot; and modify the colors.</p></div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	<h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+    		About</h1>
+    	<pre class="prettyprint lang-html linenums">
+     
+        &lt;!--Start About Section--&gt;
+        &lt;section class=&quot;about section pp-scrollable&quot; id=&quot;about&quot;&gt;
+            &lt;div class=&quot;about-header&quot;&gt;
+                &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;ABOUT ME&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;container&quot;&gt;
+                            &lt;div class=&quot;row&quot;&gt;
+                                &lt;div class=&quot;col-lg-5 col-md-12&quot;&gt;
+                                    &lt;div class=&quot;about-img&quot;&gt;
+                                        &lt;img src=&quot;images/about.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;
+                                        &lt;div class=&quot;img-hover&quot;&gt;&lt;a href=&quot;#&quot;&gt;Download my CV&lt;/a&gt;&lt;/div&gt;
+                                        &lt;div class=&quot;img-overlay&quot;&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;col-lg-7 col-md-12&quot;&gt;
+                                    &lt;div class=&quot;about-content&quot;&gt;
+                                        &lt;h4 class=&quot;section-title&quot;&gt;
+                                            Hello! I am Kevin Watson
+                                        &lt;/h4&gt;
+                                        &lt;p class=&quot;about-text&quot;&gt;
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                        &lt;/p&gt;
+                                        &lt;div class=&quot;skills&quot;&gt;
+                                            &lt;div class=&quot;progressbar-area&quot;&gt;
+                                                &lt;h6&gt;Html&lt;/h6&gt;
+                                                &lt;div class=&quot;progress&quot;&gt;
+                                                    &lt;div class=&quot;progress-bar prog1&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;80&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; data-progress=&quot;80%&quot;&gt;
+                                                        &lt;span&gt;80%&lt;/span&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;h6&gt;Css&lt;/h6&gt;
+                                                &lt;div class=&quot;progress&quot;&gt;
+                                                    &lt;div class=&quot;progress-bar prog2&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;90&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; data-progress=&quot;94%&quot;&gt;
+
+                                                        &lt;span&gt;90%&lt;/span&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;h6&gt;JavaScript&lt;/h6&gt;
+                                                &lt;div class=&quot;progress&quot;&gt;
+                                                    &lt;div class=&quot;progress-bar prog3&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;86&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; data-progress=&quot;86%&quot;&gt;
+
+                                                        &lt;span&gt;86%&lt;/span&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End About Section--&gt;</pre>
+    	<div>
+    		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">To use your own background image in this section, find the class &quot;</span><span style="color: rgb(46, 46, 46);">.about&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">in &quot;style.css&quot; and change the directroy of background.</span>You can use your portrait image in about section. To do that, find the class about-img and change the directory of&nbsp; img tag. You can add your skill levels in the progress bars,find the class progress-bar and change the value of&nbsp;</span><span style="color: rgb(46, 46, 46); font-family: Arial, verdana, arial, sans-serif;">aria-valuenow attribute and span tag.</span></div>
+    	<div>
+    		&nbsp;</div>
+    	<div>
+    		&nbsp;</div>
+    	<h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+    		Services</h1>
+    	<pre class="prettyprint lang-html linenums">
+                &lt;!--Start Services Section--&gt;
+        &lt;section class=&quot;service section pp-scrollable&quot; id=&quot;service&quot;&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;service-header&quot;&gt;
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;My SERVICES&lt;/p&gt;&lt;/div&gt;
+                            &lt;h4 class=&quot;section-title&quot;&gt;What I Offer&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;service-content&quot;&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row&quot;&gt;
+                                    &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;service-item&quot;&gt;
+                                            &lt;span&gt;&lt;i class=&quot;fas fa-lightbulb&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                                            &lt;p class=&quot;content-title&quot;&gt;UNIQUE IDEAS&lt;/p&gt;
+                                            &lt;p class=&quot;content-text&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;service-item&quot;&gt;
+                                            &lt;span&gt;&lt;i class=&quot;fas fa-pencil-ruler&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                                            &lt;p class=&quot;content-title&quot;&gt;WEB DESIGN&lt;/p&gt;
+                                            &lt;p class=&quot;content-text&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;service-item&quot;&gt;
+                                            &lt;span&gt;&lt;i class=&quot;fas fa-laptop-code&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                                            &lt;p class=&quot;content-title&quot;&gt;THEME DEVELOPMENT&lt;/p&gt;
+                                            &lt;p class=&quot;content-text&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;service-item&quot;&gt;
+                                            &lt;span&gt;&lt;i class=&quot;fas fa-pen-nib&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                                            &lt;p class=&quot;content-title&quot;&gt;CONTENT WRITING&lt;/p&gt;
+                                            &lt;p class=&quot;content-text&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;service-item&quot;&gt;
+                                            &lt;span&gt;&lt;i class=&quot;fas fa-headphones&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                                            &lt;p class=&quot;content-title&quot;&gt;24/7 SUPPORT&lt;/p&gt;
+                                            &lt;p class=&quot;content-text&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;service-item&quot;&gt;
+                                            &lt;span&gt;&lt;i class=&quot;fas fa-hammer&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+                                            &lt;p class=&quot;content-title&quot;&gt;EASY TO CUSTOMIZE&lt;/p&gt;
+                                            &lt;p class=&quot;content-text&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium sit voluptatem accusantium&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End Services Section--&gt;</pre>
+    	<div>
+    		<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">To use your own background image in this section, find the class &quot;</span><span style="color: rgb(46, 46, 46);">.service&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">in &quot;style.css&quot; and change the directroy of background.</span>You can add your services here. To change the background image ,find .service class in style.css and change the url. Here font-awesome icon has been used. You can choose your icon from&nbsp;</span><a href="https://fontawesome.com/icons?from=io" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 64); text-decoration-line: none; cursor: pointer;">here</a><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">.</span></div>
+    	<div>
+    		&nbsp;</div>
+    	<div>
+    		&nbsp;</div>
+
+        <h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+            Resume</h1>
+        <pre class="prettyprint lang-html linenums">
+        &lt;!--Start Resume Section--&gt;
+        &lt;section class=&quot;resume section pp-scrollable&quot; id=&quot;resume&quot;&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;resume-header&quot;&gt;
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;MY RESUME&lt;/p&gt;&lt;/div&gt;
+                            &lt;h4 class=&quot;section-title&quot;&gt;My Resume&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;resume-content&quot;&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row&quot;&gt;
+                                    &lt;div class=&quot;col-md-6&quot;&gt;
+                                        &lt;div class=&quot;education&quot;&gt;
+                                            &lt;div class=&quot;resume-item&quot;&gt;
+                                                &lt;p class=&quot;res-year&quot;&gt;2006-2010&lt;/p&gt;
+                                                &lt;p class=&quot;res-title&quot;&gt;Bachelor - XYZ University&lt;/p&gt;
+                                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.&lt;/p&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;resume-item&quot;&gt;
+                                                &lt;p class=&quot;res-year&quot;&gt;2006-2010&lt;/p&gt;
+                                                &lt;p class=&quot;res-title&quot;&gt;Masters - XYZ University&lt;/p&gt;
+                                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.&lt;/p&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;resume-item&quot;&gt;
+                                                &lt;p class=&quot;res-year&quot;&gt;2006-2010&lt;/p&gt;
+                                                &lt;p class=&quot;res-title&quot;&gt;PhD - XYZ University&lt;/p&gt;
+                                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.&lt;/p&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-md-6&quot;&gt;
+                                        &lt;div class=&quot;experience&quot;&gt;
+                                            &lt;div class=&quot;resume-item&quot;&gt;
+                                                &lt;p class=&quot;res-year&quot;&gt;2011-2013&lt;/p&gt;
+                                                &lt;p class=&quot;res-title&quot;&gt;UI/UX Developer - Themeforest&lt;/p&gt;
+                                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.&lt;/p&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;resume-item&quot;&gt;
+                                                &lt;p class=&quot;res-year&quot;&gt;2014-2016&lt;/p&gt;
+                                                &lt;p class=&quot;res-title&quot;&gt;Junior Developer - Creative Media&lt;/p&gt;
+                                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.&lt;/p&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;resume-item&quot;&gt;
+                                                &lt;p class=&quot;res-year&quot;&gt;2017-2019&lt;/p&gt;
+                                                &lt;p class=&quot;res-title&quot;&gt;Senior Developer - Creative Media&lt;/p&gt;
+                                                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.&lt;/p&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End Resume Section--&gt;
+</pre>
+        <div>
+            <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">To use your own background image in this section, find the class &quot;</span><span style="color: rgb(46, 46, 46);">.resume&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">in &quot;style.css&quot; and change the directroy of background.</span>You can add your education and experience here.</span></div>
+        <div>
+            &nbsp;</div>
+        <div>
+            &nbsp;</div>
+    	<div>
+    		&nbsp;</div>
+    	<h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+    		Portfolio</h1>
+    	<pre class="prettyprint lang-html linenums">        &lt;!--Start Portfolio Section--&gt;
+        &lt;section class=&quot;portfolio section pp-scrollable&quot; id=&quot;portfolio&quot;&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;portfolio-header&quot;&gt;
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;SEE MY WORKS&lt;/p&gt;&lt;/div&gt;
+                            &lt;h4 class=&quot;section-title&quot;&gt;Portfolio&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;portfolio-content&quot;&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row&quot;&gt;
+                                    &lt;div class=&quot;col-md-12 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;portfolio-content-head&quot;&gt;
+                                            &lt;ul class=&quot;controls&quot;&gt;
+                                                &lt;li class=&quot;filter&quot; data-filter=&quot;all&quot;&gt;ALL&lt;/li&gt;
+                                                &lt;li class=&quot;filter&quot; data-filter=&quot;.design&quot;&gt;DESIGN&lt;/li&gt;
+                                                &lt;li class=&quot;filter&quot; data-filter=&quot;.development&quot;&gt;DEVELOPMENT&lt;/li&gt;
+                                                &lt;li class=&quot;filter&quot; data-filter=&quot;.plugin&quot;&gt;PLUGIN&lt;/li&gt;
+                                                &lt;li class=&quot;filter&quot; data-filter=&quot;.photography&quot;&gt;PHOTOGRAPHY&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-md-12 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;portfolio-content-items&quot;&gt;
+                                            &lt;div class=&quot;row&quot;&gt;
+                                                &lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12 mix design&quot;&gt;
+                                                    &lt;div class=&quot;portfolio-item&quot;&gt;
+                                                        &lt;div class=&quot;portfolio-img&quot;&gt;
+                                                            &lt;img src=&quot;images/portfolio/img1.jpg&quot; alt=&quot;portfolio&quot; class=&quot;img-responsive&quot;&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;portfolio-overlay&quot;&gt;
+                                                            &lt;div class=&quot;overlay-content&quot;&gt;
+                                                                &lt;div class=&quot;overlay-content-item&quot;&gt;
+                                                                    &lt;p class=&quot;category&quot;&gt;DESIGN&lt;/p&gt;
+                                                                    &lt;a href=&quot;#&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                    &lt;a href=&quot;images/portfolio/img1.jpg&quot; data-lightbox=&quot;image-1&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12 mix plugin&quot;&gt;
+                                                    &lt;div class=&quot;portfolio-item&quot;&gt;
+                                                        &lt;div class=&quot;portfolio-img&quot;&gt;
+                                                            &lt;img src=&quot;images/portfolio/img2.jpg&quot; alt=&quot;portfolio&quot; class=&quot;img-responsive&quot;&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;portfolio-overlay&quot;&gt;
+                                                            &lt;div class=&quot;overlay-content&quot;&gt;
+                                                                &lt;div class=&quot;overlay-content-item&quot;&gt;
+                                                                    &lt;p class=&quot;category&quot;&gt;PLUGIN&lt;/p&gt;
+                                                                    &lt;a href=&quot;#&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                    &lt;a href=&quot;images/portfolio/img2.jpg&quot; data-lightbox=&quot;image-2&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12 mix photography&quot;&gt;
+                                                    &lt;div class=&quot;portfolio-item&quot;&gt;
+                                                        &lt;div class=&quot;portfolio-img&quot;&gt;
+                                                            &lt;img src=&quot;images/portfolio/img3.jpg&quot; alt=&quot;portfolio&quot; class=&quot;img-responsive&quot;&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;portfolio-overlay&quot;&gt;
+                                                            &lt;div class=&quot;overlay-content&quot;&gt;
+                                                                &lt;div class=&quot;overlay-content-item&quot;&gt;
+                                                                    &lt;p class=&quot;category&quot;&gt;PHOTOGRAPHY&lt;/p&gt;
+                                                                    &lt;a href=&quot;#&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                    &lt;a href=&quot;images/portfolio/img3.jpg&quot; data-lightbox=&quot;image-3&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12 mix design&quot;&gt;
+                                                    &lt;div class=&quot;portfolio-item&quot;&gt;
+                                                        &lt;div class=&quot;portfolio-img&quot;&gt;
+                                                            &lt;img src=&quot;images/portfolio/img4.jpg&quot; alt=&quot;portfolio&quot; class=&quot;img-responsive&quot;&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;portfolio-overlay&quot;&gt;
+                                                            &lt;div class=&quot;overlay-content&quot;&gt;
+                                                                &lt;div class=&quot;overlay-content-item&quot;&gt;
+                                                                    &lt;p class=&quot;category&quot;&gt;DESIGN&lt;/p&gt;
+                                                                    &lt;a href=&quot;#&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                    &lt;a href=&quot;images/portfolio/img4.jpg&quot; data-lightbox=&quot;image-4&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12 mix development&quot;&gt;
+                                                    &lt;div class=&quot;portfolio-item&quot;&gt;
+                                                        &lt;div class=&quot;portfolio-img&quot;&gt;
+                                                            &lt;img src=&quot;images/portfolio/img5.jpg&quot; alt=&quot;portfolio&quot; class=&quot;img-responsive&quot;&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;portfolio-overlay&quot;&gt;
+                                                            &lt;div class=&quot;overlay-content&quot;&gt;
+                                                                &lt;div class=&quot;overlay-content-item&quot;&gt;
+                                                                    &lt;p class=&quot;category&quot;&gt;DEVELOPMENT&lt;/p&gt;
+                                                                    &lt;a href=&quot;#&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                    &lt;a href=&quot;images/portfolio/img5.jpg&quot; data-lightbox=&quot;image-5&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;col-lg-3 col-md-4 col-sm-6 col-xs-12 mix development&quot;&gt;
+                                                    &lt;div class=&quot;portfolio-item&quot;&gt;
+                                                        &lt;div class=&quot;portfolio-img&quot;&gt;
+                                                            &lt;img src=&quot;images/portfolio/img6.jpg&quot; alt=&quot;portfolio&quot; class=&quot;img-responsive&quot;&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;portfolio-overlay&quot;&gt;
+                                                            &lt;div class=&quot;overlay-content&quot;&gt;
+                                                                &lt;div class=&quot;overlay-content-item&quot;&gt;
+                                                                    &lt;p class=&quot;category&quot;&gt;DEVELOPMENT&lt;/p&gt;
+                                                                    &lt;a href=&quot;#&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                    &lt;a href=&quot;images/portfolio/img6.jpg&quot; data-lightbox=&quot;image-6&quot;&gt;
+                                                                        &lt;div class=&quot;magnify-icon&quot;&gt;
+                                                                            &lt;p&gt;&lt;span&gt;&lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End Portfolio Section--&gt;</pre>
+    	<div>
+    		<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(46, 46, 46);">
+    			<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(56, 56, 56);"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">To use your own background image in this section, find the class &quot;</span><span style="color: rgb(46, 46, 46);">.portfolio&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">in &quot;style.css&quot; and change the directroy of background.</span>In the portfolio section,you can present your projects.To use your images,find the class portfolio-img and change the directory of &lt;img&gt; tag.</span></div>
+    		<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(46, 46, 46);">
+    			&nbsp;</div>
+            <h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+        Work-Process</h1>
+    <pre class="prettyprint lang-html linenums">        &lt;!--Start work Section--&gt;
+        &lt;section class=&quot;work section pp-scrollable&quot; id=&quot;work&quot;&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;work-header&quot;&gt;
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;WORKING PROCESS&lt;/p&gt;&lt;/div&gt;
+                            &lt;h4 class=&quot;section-title&quot;&gt;How I Work&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;work-content&quot;&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row&quot;&gt;
+                                    &lt;div class=&quot;col-md-6&quot;&gt;
+                                        &lt;div class=&quot;video-container&quot;&gt;
+                                            &lt;div class=&quot;video-area&quot;&gt;
+                                                &lt;a href=&quot;https://www.youtube.com/watch?v=EfTUpvxEbqc&quot; class=&quot;video-play button&quot; target=&quot;_self&quot;&gt;
+                                                    &lt;div class=&quot;video-icon&quot;&gt;&lt;span&gt;&lt;i class=&quot;fas fa-caret-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;
+                                                &lt;/a&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-md-6&quot;&gt;
+                                        &lt;div class=&quot;work-item&quot;&gt;
+                                            &lt;span class=&quot;work-title&quot;&gt;Discuss &amp; Plan&lt;/span&gt;
+                                            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor&lt;/p&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class=&quot;work-arrow&quot;&gt;&lt;/div&gt;
+                                        &lt;div class=&quot;work-item&quot;&gt;
+                                            &lt;span class=&quot;work-title&quot;&gt;Design &amp; Develop&lt;/span&gt;
+                                            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor&lt;/p&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class=&quot;work-arrow&quot;&gt;&lt;/div&gt;
+                                        &lt;div class=&quot;work-item&quot;&gt;
+                                            &lt;span class=&quot;work-title&quot;&gt;Final Approach&lt;/span&gt;
+                                            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End work Section--&gt;</pre>
+    <div>
+        <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">To use your own background image in this section, find the class &quot;</span><span style="color: rgb(46, 46, 46);">.work&quot;&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">in &quot;style.css&quot; and change the directroy of background.&nbsp;</span></span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">To use your own image in this video background , find the class &quot;.work .video-area</span><span style="font-family: Arial, verdana, arial, sans-serif; color: rgb(46, 46, 46);">&quot;&nbsp;</span><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">in &quot;style.css&quot; and change the directroy of background.</span></div>
+    <div>
+        &nbsp;</div>
+    <div>
+        &nbsp;</div>
+    		<div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline;">
+    			<h1 style="color: rgb(56, 56, 56); margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; vertical-align: baseline;">
+    				Testimonial</h1>
+    			<pre class="prettyprint lang-html linenums" style="color: rgb(46, 46, 46);">        &lt;!--Start Client Testimonial Section Area--&gt;
+        &lt;section class=&quot;client-testimonial pp-scrollable section&quot; id=&quot;client-testimonial&quot;&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;testimonial-header&quot;&gt;
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;TESTIMONIAL&lt;/p&gt;&lt;/div&gt;
+                            &lt;h4 class=&quot;section-title&quot;&gt;What People Say&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;client-area&quot;&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row&quot;&gt;
+                                    &lt;div id=&quot;owl-demo-testimonial&quot; class=&quot;owl-carousel owl-theme&quot;&gt;
+                                        &lt;!--Start Client Single design area--&gt;
+                                        &lt;div class=&quot;item&quot;&gt;
+                                            &lt;div class=&quot;client-img&quot;&gt;
+                                                &lt;img src=&quot;images/client/img1.jpg&quot; alt=&quot;client&quot;&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;testimonial-content&quot;&gt;
+                                                &lt;div class=&quot;quote-text&quot;&gt;
+                                                    &lt;p&gt;
+                                                        &lt;i class=&quot;fa fa-quote-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                        &lt;span&gt;Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.&lt;/span&gt;
+                                                        &lt;i class=&quot;fa fa-quote-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                    &lt;/p&gt;
+                                                    &lt;div class=&quot;client-identity&quot;&gt;
+                                                        &lt;p class=&quot;name&quot;&gt;OLIVIA GOMEZ&lt;/p&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--End Client Single design area--&gt;
+                                        &lt;!--Start Client Single design area--&gt;
+                                        &lt;div class=&quot;item&quot;&gt;
+                                            &lt;div class=&quot;client-img&quot;&gt;
+                                                &lt;img src=&quot;images/client/img2.jpg&quot; alt=&quot;client&quot;&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;testimonial-content&quot;&gt;
+                                                &lt;div class=&quot;quote-text&quot;&gt;
+                                                    &lt;p&gt;
+                                                        &lt;i class=&quot;fa fa-quote-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                        &lt;span&gt;Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.&lt;/span&gt;
+                                                        &lt;i class=&quot;fa fa-quote-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                    &lt;/p&gt;
+                                                    &lt;div class=&quot;client-identity&quot;&gt;
+                                                        &lt;p class=&quot;name&quot;&gt;JOHN GOMEZ&lt;/p&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--End Client Single design area--&gt;
+                                        &lt;!--Start Client Single design area--&gt;
+                                        &lt;div class=&quot;item&quot;&gt;
+                                            &lt;div class=&quot;client-img&quot;&gt;
+                                                &lt;img src=&quot;images/client/img3.jpg&quot; alt=&quot;client&quot;&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;testimonial-content&quot;&gt;
+                                                &lt;div class=&quot;quote-text&quot;&gt;
+                                                    &lt;p&gt;
+                                                        &lt;i class=&quot;fa fa-quote-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                        &lt;span&gt;Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.&lt;/span&gt;
+                                                        &lt;i class=&quot;fa fa-quote-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                    &lt;/p&gt;
+                                                    &lt;div class=&quot;client-identity&quot;&gt;
+                                                        &lt;p class=&quot;name&quot;&gt;SILVIA GOMEZ&lt;/p&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--End Client Single design area--&gt;
+                                        &lt;!--Start Client Single design area--&gt;
+                                        &lt;div class=&quot;item&quot;&gt;
+                                            &lt;div class=&quot;client-img&quot;&gt;
+                                                &lt;img src=&quot;images/client/img1.jpg&quot; alt=&quot;client&quot;&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;testimonial-content&quot;&gt;
+                                                &lt;div class=&quot;quote-text&quot;&gt;
+                                                    &lt;p&gt;
+                                                        &lt;i class=&quot;fa fa-quote-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                        &lt;span&gt;Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.&lt;/span&gt;
+                                                        &lt;i class=&quot;fa fa-quote-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                    &lt;/p&gt;
+                                                    &lt;div class=&quot;client-identity&quot;&gt;
+                                                        &lt;p class=&quot;name&quot;&gt;OLIVIA GOMEZ&lt;/p&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--End Client Single design area--&gt;
+                                        &lt;!--Start Client Single design area--&gt;
+                                        &lt;div class=&quot;item&quot;&gt;
+                                            &lt;div class=&quot;client-img&quot;&gt;
+                                                &lt;img src=&quot;images/client/img2.jpg&quot; alt=&quot;client&quot;&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;testimonial-content&quot;&gt;
+                                                &lt;div class=&quot;quote-text&quot;&gt;
+                                                    &lt;p&gt;
+                                                        &lt;i class=&quot;fa fa-quote-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                        &lt;span&gt;Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.&lt;/span&gt;
+                                                        &lt;i class=&quot;fa fa-quote-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                    &lt;/p&gt;
+                                                    &lt;div class=&quot;client-identity&quot;&gt;
+                                                        &lt;p class=&quot;name&quot;&gt;JOHN GOMEZ&lt;/p&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--End Client Single design area--&gt;
+                                        &lt;!--Start Client Single design area--&gt;
+                                        &lt;div class=&quot;item&quot;&gt;
+                                            &lt;div class=&quot;client-img&quot;&gt;
+                                                &lt;img src=&quot;images/client/img3.jpg&quot; alt=&quot;client&quot;&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class=&quot;testimonial-content&quot;&gt;
+                                                &lt;div class=&quot;quote-text&quot;&gt;
+                                                    &lt;p&gt;
+                                                        &lt;i class=&quot;fa fa-quote-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                        &lt;span&gt;Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.&lt;/span&gt;
+                                                        &lt;i class=&quot;fa fa-quote-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                    &lt;/p&gt;
+                                                    &lt;div class=&quot;client-identity&quot;&gt;
+                                                        &lt;p class=&quot;name&quot;&gt;SILVIA GOMEZ&lt;/p&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--End Client Single design area--&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End Client Testimonial Section Area--&gt;
+</pre>
+    			<div style="color: rgb(46, 46, 46);">
+    				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(56, 56, 56);">To use your own background image in this section, find the class &quot;</span>.client-testimonial&quot;&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(56, 56, 56);">in &quot;style.css&quot; and change the directroy of background.</span><span style="color: rgb(56, 56, 56);">You can add your clients&#39; testimonial in this template.</span></div>
+    			<div style="color: rgb(46, 46, 46);">
+    				&nbsp;</div>
+    			<div style="color: rgb(46, 46, 46);">
+    				&nbsp;</div>
+    			<h1 style="color: rgb(56, 56, 56); margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; vertical-align: baseline;">
+    				Blog</h1>
+    			<pre class="prettyprint lang-html linenums">
+                        &lt;!--Start Blog Section Area--&gt;
+        &lt;section class=&quot;blog pp-scrollable section&quot; id=&quot;blog&quot;&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;blog-header&quot;&gt;
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;SEE MY BLOG&lt;/p&gt;&lt;/div&gt;
+                            &lt;h4 class=&quot;section-title&quot;&gt;Latest News&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;blog-content&quot;&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;owl-carousel owl-theme&quot; id=&quot;owl-demo-blog&quot;&gt;
+                                    &lt;div class=&quot;item row&quot;&gt;
+                                        &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                                            &lt;div class=&quot;blog-img&quot;&gt;
+                                                &lt;img src=&quot;images/blog/blog-img1.jpg&quot; alt=&quot;blog1&quot; class=&quot;img-responsive&quot;&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                                            &lt;div class=&quot;blog-text&quot;&gt;
+                                                &lt;p class=&quot;blog-title&quot;&gt;Single Blog Post Title Goes Here&lt;/p&gt;
+                                                &lt;p class=&quot;blog-detail&quot;&gt;
+                                                    &lt;span&gt;Date:&lt;/span&gt;01-03-19
+                                                    &lt;span&gt;|&lt;/span&gt; Posted By &lt;span&gt;Carl Watson&lt;/span&gt;
+                                                &lt;/p&gt;
+                                                &lt;p class=&quot;blog-description&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia ...
+                                                &lt;/p&gt;
+                                                &lt;a href=&quot;#&quot; class=&quot;read-more&quot;&gt;Read More &lt;i class='fas fa-angle-double-right'&gt;&lt;/i&gt;&lt;/a&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;item row&quot;&gt;
+                                        &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                                            &lt;div class=&quot;blog-img&quot;&gt;
+                                                &lt;img src=&quot;images/blog/blog-img2.jpg&quot; alt=&quot;blog2&quot; class=&quot;img-responsive&quot;&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                                            &lt;div class=&quot;blog-text&quot;&gt;
+                                                &lt;p class=&quot;blog-title&quot;&gt;Single Blog Post Title Goes Here&lt;/p&gt;
+                                                &lt;p class=&quot;blog-detail&quot;&gt;
+                                                    &lt;span&gt;Date:&lt;/span&gt;01-03-19
+                                                    &lt;span&gt;|&lt;/span&gt; Posted By &lt;span&gt;Carl Watson&lt;/span&gt;
+                                                &lt;/p&gt;
+                                                &lt;p class=&quot;blog-description&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia ...
+                                                &lt;/p&gt;
+                                                &lt;a href=&quot;#&quot; class=&quot;read-more&quot;&gt;Read More &lt;i class='fas fa-angle-double-right'&gt;&lt;/i&gt;&lt;/a&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;item row&quot;&gt;
+                                        &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                                            &lt;div class=&quot;blog-img&quot;&gt;
+                                                &lt;img src=&quot;images/blog/blog-img3.jpg&quot; alt=&quot;blog3&quot; class=&quot;img-responsive&quot;&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                                            &lt;div class=&quot;blog-text&quot;&gt;
+                                                &lt;p class=&quot;blog-title&quot;&gt;Single Blog Post Title Goes Here&lt;/p&gt;
+                                                &lt;p class=&quot;blog-detail&quot;&gt;
+                                                    &lt;span&gt;Date:&lt;/span&gt;01-03-19
+                                                    &lt;span&gt;|&lt;/span&gt; Posted By &lt;span&gt;Carl Watson&lt;/span&gt;
+                                                &lt;/p&gt;
+                                                &lt;p class=&quot;blog-description&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia ...
+                                                &lt;/p&gt;
+                                                &lt;a href=&quot;#&quot; class=&quot;read-more&quot;&gt;Read More &lt;i class='fas fa-angle-double-right'&gt;&lt;/i&gt;&lt;/a&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End Blog Section Area--&gt;
+</pre>
+    			<div style="color: rgb(46, 46, 46);">
+    				<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(56, 56, 56);">To use your own background image in this section, find the class &quot;</span>.blog&quot;&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(56, 56, 56);">in &quot;style.css&quot; and change the directroy of background.</span><span style="color: rgb(56, 56, 56);">To change the blog post image,find the class blog-img and change the directory of &lt;img&gt; tags.</span></div>
+    			<div style="color: rgb(46, 46, 46);">
+    				&nbsp;</div>
+    			<div style="color: rgb(46, 46, 46);">
+    				<b style="color: rgb(56, 56, 56); font-size: 30px;">Contact &amp; Footer</b></div>
+    			<pre class="prettyprint lang-html linenums" style="color: rgb(46, 46, 46);">        &lt;!--Start Contact Section--&gt;
+        &lt;section class=&quot;contact footer pp-scrollable section&quot; id=&quot;contact&quot;&gt;
+            &lt;div class=&quot;content-container&quot;&gt;
+                &lt;div class=&quot;display-table&quot;&gt;
+                    &lt;div class=&quot;display-content&quot;&gt;
+                        &lt;div class=&quot;contact-header&quot;&gt;
+                            &lt;div class=&quot;title-small&quot;&gt;&lt;p&gt;CONTACT ME&lt;/p&gt;&lt;/div&gt;
+                            &lt;h4 class=&quot;section-title&quot;&gt;Get In Touch&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contact-content&quot;&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row&quot;&gt;
+                                    &lt;div class=&quot;col-lg-6 col-md-12 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;contact-detail&quot;&gt;
+                                            &lt;h6&gt;Contact&lt;/h6&gt;
+                                            &lt;p class=&quot;contact-text&quot;&gt;Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeatw.&lt;/p&gt;
+                                            &lt;p class=&quot;adress&quot;&gt;
+                                                &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                &lt;span&gt;Address:&lt;/span&gt;
+                                                &lt;span class=&quot;adress-loc&quot;&gt;10,Park Strgfyguhijeet,London,UK.&lt;/span&gt;
+                                            &lt;/p&gt;
+                                            &lt;p class=&quot;phone&quot;&gt;
+                                                &lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                &lt;span&gt;Contact no:&lt;/span&gt;+999000000
+                                            &lt;/p&gt;
+                                            &lt;p class=&quot;email&quot;&gt;
+                                                &lt;i class=&quot;fas fa-envelope&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                &lt;span&gt;Email:&lt;/span&gt;abcdefg@gmail.com
+                                            &lt;/p&gt;
+                                            &lt;p&gt;
+                                                &lt;i class=&quot;fa fa-globe&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+                                                &lt;span&gt;Website:&lt;/span&gt;&lt;a href=&quot;#&quot;&gt;www.abcd.com&lt;/a&gt;
+                                            &lt;/p&gt;
+                                            &lt;div class=&quot;social-icons&quot;&gt;
+                                                &lt;p&gt;Find:&lt;/p&gt;
+                                                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-facebook-f&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-google&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin-in&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class=&quot;col-lg-6 col-md-12 col-sm-12&quot;&gt;
+                                        &lt;div class=&quot;contact-form&quot;&gt;
+                                            &lt;form class=&quot;contact-form-area&quot; action=&quot;contact.php&quot; method=&quot;post&quot;&gt;
+                                                &lt;div class=&quot;row&quot;&gt;
+                                                    &lt;div class=&quot;col-md-6&quot;&gt;
+                                                        &lt;input type=&quot;text&quot; name=&quot;name&quot; placeholder=&quot;Name&quot; id=&quot;form-name&quot;&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;div class=&quot;col-md-6&quot;&gt;
+                                                        &lt;input type=&quot;text&quot; name=&quot;email&quot; placeholder=&quot;Email&quot; id=&quot;form-email&quot;&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;row&quot;&gt;
+                                                    &lt;div class=&quot;col-md-12&quot;&gt;
+                                                        &lt;input type=&quot;text&quot; name=&quot;subject&quot; placeholder=&quot;Subject&quot; id=&quot;form-subject&quot;&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;row&quot;&gt;
+                                                    &lt;div class=&quot;col-md-12&quot;&gt;
+                                                        &lt;textarea placeholder=&quot;Type here&quot; name=&quot;message&quot; id=&quot;form-message&quot;&gt;&lt;/textarea&gt;
+                                                        &lt;input type=&quot;submit&quot; class=&quot;submit-btn btn-style1 clearfix&quot; value=&quot;Submit&quot; id=&quot;contact-submit&quot;&gt;
+                                                        &lt;div class=&quot;result&quot;&gt;&lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/form&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!--Start Footer--&gt;
+                        &lt;footer&gt;
+                            &lt;div class=&quot;container&quot;&gt;
+                                &lt;div class=&quot;row&quot;&gt;
+                                    &lt;div class=&quot;col-md-12&quot;&gt;
+                                        &lt;div class=&quot;copyright&quot;&gt;
+                                            &lt;p&gt;Copyright © 2019 Rivo | All rights reserved&lt;/p&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/footer&gt;
+                        &lt;!--End Footer--&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!--End Contact Section--&gt;</pre>
+    			<div style="">
+    				<span style="color: rgb(56, 56, 56); margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">To use your own background image in this section, find the class &quot;</span><font color="#2e2e2e">.contact&quot;&nbsp;</font><span style="color: rgb(56, 56, 56); margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline;">in &quot;style.css&quot; and change the directroy of background.</span><font color="#2e2e2e">To make your contact-form work properly, you need to upload it in a host. Then you have to put your email id in contact.php.To know how to customize contact.php,click <a href="#ajax_php_contact_form">here.</a></font><font color="#2e2e2e">&nbsp;In this section,you can add your copyrights.</font></div>
+    			<div style="color: rgb(46, 46, 46);">
+    				&nbsp;</div>
+    			<div style="color: rgb(46, 46, 46);">
+    				&nbsp;</div>
+    			<div style="color: rgb(46, 46, 46);">
+    				&nbsp;</div>
+    			<div style="color: rgb(46, 46, 46);">
+    				&nbsp;</div>
+    		</div>
+    	</div>
+    	<div>
+    		&nbsp;</div>
+    	<div>
+    		&nbsp;</div>
+    	<div>
+    		&nbsp;</div>
+    	<div>
+    		&nbsp;</div>
+    </div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    </section>
+    <section id="css_files_and_structure">
+    	<div class="page-header"><h3>CSS Files and Structure</h3><hr class="notop"></div>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	&nbsp;I have used several css file in this template.But the three given below are main css files-</p>
+    <ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		style.css</li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		reset.css</li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		responsive.css</li>
+    </ul>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	These three files are &quot;Rivo&quot; site css file. &quot;reset.css&quot;&nbsp; has been used to set the default values. &quot;responsive.css&quot; has been used to make this site 100% responsive,clean and elegant. &quot;style.css&quot; has been used to stylize the&nbsp; template.</p>
+    </section>
+    <section id="javascript">
+    	<div class="page-header"><h3>JavaScript</h3><hr class="notop"></div>
+    <pre class="prettyprint lang-js linenums">
+    /*------------------------------------
+
+     *Author:FortunaTheme
+
+     *Template:Rivo
+
+     *Version:1.0
+
+     *-------------------------------------
+
+     */
+
+    (function($) {
+
+
+        &quot;use strict&quot;;
+
+
+        jQuery(document).on(&quot;ready&quot;, function() {
+
+
+
+
+            /*
+
+             * -----------------------------------------------------------------
+
+             *---------------------------Preloader and Anchor Tag---------------
+
+             * -----------------------------------------------------------------
+
+             */
+
+
+            var themeWindow = $(window);
+
+            var pagebody = $(&#39;html, body&#39;);
+
+            themeWindow.on(&quot;load&quot;, function() {
+
+
+                var preloader = jQuery(&#39;.preloader&#39;);
+
+                var preloaderArea = jQuery(&#39;.preloader-area&#39;);
+
+                preloader.fadeOut();
+
+                preloaderArea.delay(200).fadeOut(&#39;slow&#39;);
+
+                themeWindow.scrollTop(0);
+
+            });
+
+
+            var anchor = $(&#39;a[href=&quot;#&quot;]&#39;);
+
+            anchor.on(&quot;click&quot;, function() {
+
+                e.preventDefault();
+
+            });
+
+
+
+            /*
+
+             * -----------------------------------------------------------------
+
+             *-------------------single-page-nav-plugin------------------------
+
+             * -----------------------------------------------------------------
+
+             */
+
+
+
+
+            // Prevent console.log from generating errors in IE for the purposes of the demo
+
+            if(!window.console) console = {
+
+                log: function() {}
+
+            };
+
+
+            // The actual plugin
+
+            if($(&quot;.welcome-area&quot;).is(&quot;#welcome-area&quot;)) {
+
+                var singleNav = jQuery(&#39;.single-page-nav&#39;);
+
+                singleNav.singlePageNav({
+
+                    offset: singleNav.outerHeight(),
+
+                    filter: &#39;:not(.external)&#39;,
+
+                    updateHash: false
+
+                });
+
+
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *-------------------------Skill------------------------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+                var skill = $(&#39;.about&#39;);
+
+
+                var width1 = $(&quot;.prog1&quot;).data(&quot;progress&quot;);
+
+                var progBar1 = $(&quot;.prog1&quot;);
+
+                skill.waypoint(function() {
+
+                    progBar1.css({
+
+                        &quot;width&quot;: width1,
+
+                        &quot;transition&quot;: &quot;2s ease-in&quot;
+
+                    });
+
+                }, {
+
+
+                    offset: width1
+
+                });
+
+
+
+                var width2 = $(&quot;.prog2&quot;).data(&quot;progress&quot;);
+
+                var progBar2 = $(&quot;.prog2&quot;);
+
+                skill.waypoint(function() {
+
+                    progBar2.css({
+
+                        &quot;width&quot;: width2,
+
+                        &quot;transition&quot;: &quot;2s ease-in&quot;
+
+                    });
+
+                }, {
+
+
+                    offset: width2
+
+                });
+
+
+
+                var width3 = $(&quot;.prog3&quot;).data(&quot;progress&quot;);
+
+                var progBar3 = $(&quot;.prog3&quot;);
+
+                skill.waypoint(function() {
+
+                    progBar3.css({
+
+                        &quot;width&quot;: width3,
+
+                        &quot;transition&quot;: &quot;2s ease-in&quot;
+
+                    });
+
+                }, {
+
+
+                    offset: width3
+
+                });
+
+
+
+
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *-------------------------------Mixit Up---------------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+
+
+                var portfolioContent = $(&#39;.portfolio-content&#39;);
+
+
+                portfolioContent.mixItUp();
+
+
+
+
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *-----------------------------lightbox-----------------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+
+
+                lightbox.option({
+
+                    &#39;resizeDuration&#39;: 200,
+
+                    &#39;wrapAround&#39;: true,
+
+                    showImageNumberLabel: false,
+
+                });
+
+
+
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *-----------------------------Ajax Chimp---------------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+
+                var chimpForm = $(&#39;#mc-form&#39;);
+
+
+                chimpForm.ajaxChimp({
+
+                    url: &#39;https://tahsinscreation.us17.list-manage.com/subscribe/post?u=8d43c37bb4dbc0d0b8078d874&amp;amp;id=c638bf1e04&#39;
+
+                });
+
+
+
+
+
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *----------------------Contact form ajax---------------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+
+
+                var contactSubmit = $(&#39;#contact-submit&#39;);
+
+
+                contactSubmit.on(&#39;click&#39;, function(e) {
+
+                    e.preventDefault();
+
+                    var name = $(&#39;#form-name&#39;).val();
+
+                    var email = $(&#39;#form-email&#39;).val();
+
+                    var subject = $(&#39;#form-subject&#39;).val();
+
+                    var message = $(&#39;#form-message&#39;).val();
+
+                    var form = new Array({
+
+                        &#39;name&#39;: name,
+
+                        &#39;email&#39;: email,
+
+                        &#39;subject&#39;: subject,
+
+                        &#39;message&#39;: message
+
+                    });
+
+                    $.ajax({
+
+                        type: &#39;POST&#39;,
+
+                        url: &quot;contact.php&quot;,
+
+                        data: ({
+
+                            &#39;action&#39;: &#39;contact&#39;,
+
+                            &#39;form&#39;: form
+
+                        })
+
+                    }).done(function(data) {
+
+
+                        var conResult = $(&#39;#contact .result&#39;);
+
+                        conResult.html(data);
+
+                        $(&quot;.contact-form-area&quot;)[0].reset();
+
+
+                    });
+
+
+                });
+
+
+
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *--------------------Owl Carousel For Testimonial------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+
+
+                var testimonial = $(&quot;#client-testimonial #owl-demo-testimonial&quot;);
+
+
+                testimonial.owlCarousel({
+
+                    autoplay: true,
+
+                    autoplayTimeout: 5000,
+
+                    items: 2,
+
+                    autoPlay: 6000,
+
+                    responsive: {
+
+                        // breakpoint from 0 up
+
+                        0: {
+
+                            items: 1
+
+                        },
+
+                        // breakpoint from 480 up
+
+                        600: {
+
+                            items: 1
+
+                        },
+
+                        // breakpoint from 768 up
+
+                        900: {
+
+                            items: 2
+
+                        },
+
+                        1000: {
+
+                            items: 3
+
+                        }
+
+                    },
+
+                    pauseOnHover: true,
+
+                    nav: true,
+
+                    dots: false,
+
+                    navText: [&quot;&lt;i class=&#39;fas fa-arrow-left&#39;&gt;&lt;/i&gt;&quot;, &quot;&lt;i class=&#39;fas fa-arrow-right&#39;&gt;&lt;/i&gt;&quot;]
+
+                });
+
+
+                var blog = $(&quot;#blog #owl-demo-blog&quot;);
+
+
+                blog.owlCarousel({
+
+                    autoplay: true,
+
+                    autoplayTimeout: 5000,
+
+                    items: 1,
+
+                    autoPlay: 6000,
+
+                    responsive: {
+
+                        // breakpoint from 0 up
+
+                        0: {
+
+                            items: 1
+
+                        },
+
+                        // breakpoint from 480 up
+
+                        600: {
+
+                            items: 1
+
+                        },
+
+                        // breakpoint from 768 up
+
+                        900: {
+
+                            items: 1
+
+                        },
+
+                        1000: {
+
+                            items: 1
+
+                        }
+
+                    },
+
+                    pauseOnHover: true,
+
+                    nav: true,
+
+                    dots: false,
+
+                    navText: [&quot;&lt;i class=&#39;fas fa-arrow-left&#39;&gt;&lt;/i&gt;&quot;, &quot;&lt;i class=&#39;fas fa-arrow-right&#39;&gt;&lt;/i&gt;&quot;]
+
+                });
+
+
+
+
+
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *-----------------------------Typed Js-----------------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+                if($(&quot;.welcome-area&quot;).is(&quot;.animated-text&quot;)) {
+
+                    var typed = new Typed(&quot;#typed&quot;, {
+
+                        stringsElement: &#39;#typed-strings&#39;,
+
+                        typeSpeed: 60,
+
+                        backSpeed: 30,
+
+                        backDelay: 2000,
+
+                        startDelay: 1000,
+
+                        loop: true
+
+
+                    });
+
+                }
+
+
+            }
+
+            /*
+
+             * -----------------------------------------------------------------
+
+             *----------------------- Pagepiling.js------------------------------
+
+             * -----------------------------------------------------------------
+
+             */
+
+
+
+            var pagepiling = $(&#39;#pagepiling&#39;);
+
+            pagepiling.pagepiling({
+
+                menu: &#39;#mainMenu&#39;,
+
+                direction: &#39;vertical&#39;,
+
+                verticalCentered: true,
+
+                sectionsColor: [],
+
+                anchors: [&#39;home&#39;, &#39;about&#39;, &#39;service&#39;, &#39;resume&#39;, &#39;portfolio&#39;, &#39;work&#39;, &#39;client-testimonial&#39;, &#39;blog&#39;, &#39;contact&#39;],
+
+                scrollingSpeed: 700,
+
+                easing: &#39;swing&#39;,
+
+                loopBottom: true,
+
+                loopTop: true,
+
+                css3: true,
+
+                navigation: {
+
+                    &#39;textColor&#39;: &#39;#000&#39;,
+
+                    &#39;bulletsColor&#39;: &#39;#000&#39;,
+
+                    &#39;position&#39;: &#39;right&#39;
+
+                },
+
+                normalScrollElements: null,
+
+                normalScrollElementTouchThreshold: 5,
+
+                touchSensitivity: 5,
+
+                keyboardScrolling: true,
+
+                sectionSelector: &#39;.section&#39;,
+
+                animateAnchor: true,
+
+
+                //events
+
+                afterRender: function() {},
+
+                afterLoad: function(anchorLink, index) {}
+
+            });
+
+
+            /*
+
+             * -----------------------------------------------------------------
+
+             *----------------------- header info bar---------------------------
+
+             * -----------------------------------------------------------------
+
+             */
+
+
+
+            var headerInfo = $(&quot;#header-info-btn&quot;);
+
+
+            headerInfo.animatedModal({
+
+                modalTarget: &#39;header-info-bar&#39;,
+
+                animatedIn: &#39;fadeInRight&#39;,
+
+                animatedOut: &#39;fadeOutRight&#39;,
+
+            });
+
+
+            /*
+
+             * -----------------------------------------------------------------
+
+             *--------------------MagnificPopup---------------------------------
+
+             * -----------------------------------------------------------------
+
+             */
+
+
+
+
+            var videoPlay = $(&#39;.video-play&#39;);
+
+            videoPlay.magnificPopup({
+
+                type: &#39;iframe&#39;,
+
+                closeBtnInside: false,
+
+                closeOnContentClick: true,
+
+                tLoading: &#39;&#39;, // remove text from preloader
+
+            });
+
+
+            /*
+
+             * -----------------------------------------------------------------
+
+             *-------------------------Vanta.js---------------------------------
+
+             * -----------------------------------------------------------------
+
+             */
+
+
+            if($(&quot;.vanta-bg&quot;).is(&quot;.bird&quot;)) {
+
+                VANTA.BIRDS({
+
+                    el: &quot;#welcome-vanta-area&quot;,
+
+                    backgroundColor: 0xc0baa6,
+
+                    color1: 0x0,
+
+                    color2: 0x0,
+
+                    colorMode: &quot;lerp&quot;,
+
+                    wingSpan: 14.00,
+
+                    separation: 59.00,
+
+                    cohesion: 17.00,
+
+                    quantity: 3.00,
+
+                    backgroundAlpha: 0.00
+
+                })
+
+
+            }
+
+            if($(&quot;.vanta-bg&quot;).is(&quot;.fog&quot;)) {
+
+                VANTA.FOG({
+
+                    el: &quot;#welcome-vanta-area&quot;,
+
+                    highlightColor: 0x9ec8e6,
+
+                    midtoneColor: 0x979acf,
+
+                    baseColor: 0x141414,
+
+                    blurFactor: 0.61,
+
+                    speed: 2.60
+
+                })
+
+            }
+
+
+            if($(&quot;.vanta-bg&quot;).is(&quot;.waves&quot;)) {
+
+                VANTA.WAVES({
+
+                    el: &quot;#welcome-vanta-area&quot;,
+
+                    color: 0x19303e,
+
+                    zoom: 1.22
+
+                })
+
+            }
+
+
+            if($(&quot;.vanta-bg&quot;).is(&quot;.cloud&quot;)) {
+
+                VANTA.CLOUDS({
+
+                    el: &quot;#welcome-vanta-area&quot;,
+
+                    skyColor: 0x1a1d34,
+
+                    cloudColor: 0x5e697a,
+
+                    cloudShadowColor: 0xb1020
+
+                })
+
+            }
+
+
+        });
+
+
+    })(jQuery);</pre>
+    <div>
+    	<span style="color: rgb(46, 46, 46); font-family: Arial, verdana, arial, sans-serif;">This template contains &quot;main.js&quot;&nbsp; which is &quot;Rivo&quot; sites js file.</span></div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    </section>
+    <section id="mailchimp_subscription_form">
+    	<div class="page-header"><h3>MailChimp Subscription Form</h3><hr class="notop"></div>
+    <pre class="prettyprint lang-js linenums">
+                /*
+
+                 * -----------------------------------------------------------------
+
+                 *-----------------------------Ajax Chimp---------------------------
+
+                 * -----------------------------------------------------------------
+
+                 */
+
+
+
+                var chimpForm = $(&#39;#mc-form&#39;);
+
+
+                chimpForm.ajaxChimp({
+
+                    url: &#39;https://tahsinscreation.us17.list-manage.com/subscribe/post?u=8d43c37bb4dbc0d0b8078d874&amp;amp;id=c638bf1e04&#39;
+
+                });</pre>
+    <div>
+    	<span style="color: rgb(46, 46, 46); font-family: Arial, verdana, arial, sans-serif;">To add your subscription list ,open main.js and find Ajax Chimp comment.Just put the url of your list in the url of chimpForm.</span></div>
+    </section>
+    <section id="ajax_php_contact_form">
+    	<div class="page-header"><h3>Ajax PHP Contact Form</h3><hr class="notop"></div>
+    <pre class="prettyprint lang-php linenums">
+    &lt;?php
+
+
+    $sendTo = &quot;&#97;&#98;&#99;&#100;&#101;&#102;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;&quot;;//don&#39;t forget to change it
+
+
+    $action = $_POST[&#39;action&#39;];
+
+
+        $name = $_POST[&#39;form&#39;][0][&#39;name&#39;];
+
+        $email = $_POST[&#39;form&#39;][0][&#39;email&#39;];
+
+        $subject = $_POST[&#39;form&#39;][0][&#39;subject&#39;];
+
+        $message = $_POST[&#39;form&#39;][0][&#39;message&#39;];
+
+
+      if ($name == &quot;&quot;) {
+
+        echo &quot;&lt;p class=\&quot;error\&quot;&gt;Please fill up your name&lt;/p&gt;&quot;;
+
+            
+
+       }
+
+       else if ($email == &quot;&quot;) {
+
+        echo &quot;&lt;p class=\&quot;error\&quot;&gt;Please fill up your email&lt;/p&gt;&quot;;
+
+            
+
+       }
+
+        else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+
+          echo &quot;&lt;p class=\&quot;error\&quot;&gt;Invalid email format&lt;/p&gt;&quot;;
+
+        }
+
+        else if ($subject == &quot;&quot;) {
+
+        echo &quot;&lt;p class=\&quot;error\&quot;&gt;Please fill the subject&lt;/p&gt;&quot;;
+
+        }
+
+       else if ($message == &quot;&quot;) {
+
+        echo &quot;&lt;p class=\&quot;error\&quot;&gt;Please fill up your message&lt;/p&gt;&quot;;
+
+            
+
+       }
+
+       else if (!preg_match(&quot;/^[a-zA-Z ]*$/&quot;,$name)) {
+
+        echo &quot;&lt;p class=\&quot;error\&quot;&gt;Only letters and white space allowed in name&lt;/p&gt;&quot;;
+
+        }
+
+       
+
+            else
+
+        {
+
+            $header = &#39;From: &#39; . $name . &#39;&lt;&#39; . $email . &quot;&gt;\r\n&quot; .
+
+            &#39;Reply-To: &#39; . $email . &quot;\r\n&quot; .
+
+            &#39;X-Mailer: PHP/&#39; . phpversion();
+
+            mail($sendTo, $subject, $message, $header);
+
+            $sent = mail($sendTo, $subject, $message, $header);
+
+
+            if ($sent) {
+
+                echo &quot;&lt;p class=\&quot;success\&quot;&gt;Message sent succesfully.&lt;/p&gt;&quot;;
+
+            } else {
+
+                echo &quot;&lt;p class=\&quot;error\&quot;&gt;There was problem while sending E-Mail.&lt;/p&gt;&quot;;
+
+
+            }
+
+        }
+
+
+    ?&gt;</pre>
+    <div>
+    	<span style="color: rgb(46, 46, 46); font-family: Arial, verdana, arial, sans-serif;">To make it active, you must have to use a host. Open contact.php file .Find the variable $sendTo and put your email address here. Now your contact form is ready to use!</span></div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    <div>
+    	&nbsp;</div>
+    </section>
+    <section id="sources_and_credits">
+    	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	I have used these plugins here-</p>
+    <ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="http://www.mattboldt.com/demos/typed-js/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">Typed.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="http://lokeshdhakar.com/projects/lightbox2/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">lightbox.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://www.kunkalabs.com/mixitup/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">mixitup.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://github.com/scottjehl/Respond" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">respond.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="http://vincentgarreau.com/particles.js/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">Particle.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://github.com/scdoshi/jquery-ajaxchimp" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">ajaxChimp.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">owl.carousel.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://github.com/imakewebthings/waypoints" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">waypoint.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://github.com/ChrisWojcik/single-page-nav" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">singlePageNav.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://joaopereirawd.github.io/animatedModal.js/">AnimatedModal.js</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://alvarotrigo.com/pagePiling/">papepiling.js</a></li>
+            <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+            <a href="https://github.com/dimsemenov/Magnific-Popup">magnific-popup.js</a></li>
+            <li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+            <a href="https://www.vantajs.com/">Vanta.js</a></li>
+    </ul>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	&nbsp;</p>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	&nbsp; And also a huge credit goes to these files/icons/fonts as listed -</p>
+    <ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://jquery.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">jQuery</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="http://getbootstrap.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">Bootstrap</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="http://fontawesome.io/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">Font-awesome</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://fonts.google.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">Google Fonts</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="http://revaxarts-themes.com/documenter/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">Documenter</a></li>
+    	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+    		<a href="https://www.pexels.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 2, 38); text-decoration-line: none; cursor: pointer;">Pexels</a></li>
+    </ul>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	Thanks for purchasing my template. I tried to explain everything in this documentation. If you have any query related to this template,feel free to ask.</p>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	If you are impressed with&nbsp; &quot;Rivo&quot;&nbsp; template,&nbsp;please give rating with&nbsp;5 star&nbsp;or if you find any problem,please send an email and I shall try to fix it.&nbsp;:)</p>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	Kind Regards,</p>
+    <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(46, 46, 46);">
+    	FortuneTheme.</p>
+    </section>
+
+    	</div>
+    </body>
+    </html>
