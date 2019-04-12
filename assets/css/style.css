@@ -1,4 +1,12 @@
-@media(max-width: 500px){
+#contactINFO{
+    justify-content: center;
+}
 
+
+
+@media(max-width: 500px){
+    #imgLogo{
+        width: 50px;
+    }
 
 }
