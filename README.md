@@ -1,10 +1,10 @@
 # Jose G. Torres - Full-Stack Web Developer
+Hi, I'm a Business Entrepreneur and an aspiring Full-Stack Web Developer. Born in Puerto Rico and currently living in Dallas, TX. I bring to the table the best of two different cultures mixed with beautiful Website Designs that would enhance your customer's experience.  
 
 ## Website
 
 https://jt227b.github.io/Portfolio/
 
-Hi, I'm a Business Entrepreneur and an aspiring Full-Stack Web Developer. Born in Puerto Rico and currently living in Dallas, TX. I bring to the table the best of two different cultures mixed with beautiful Website Designs that would enhance your customer's experience.  
 
 ### Menu
 
