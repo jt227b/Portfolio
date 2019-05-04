@@ -2,11 +2,16 @@
     justify-content: center;
 }
 
+#imgLogo{
+    width: 100px;
+}
+
 
 
 @media(max-width: 500px){
     #imgLogo{
         width: 50px;
     }
+
 
 }
