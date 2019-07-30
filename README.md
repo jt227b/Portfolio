@@ -1,5 +1,5 @@
 # Jose G. Torres - Full-Stack Web Developer
-Hi, I'm a Business Entrepreneur and an aspiring Full-Stack Web Developer. Born in Puerto Rico and currently living in Dallas, TX. I bring to the table the best of two different cultures mixed with beautiful Website Designs that would enhance your customer's experience.  
+A certified Full-Stack Web Developer specializing in Front-End Web Development. With 15 years of experience in multiple business fields such as finance, customer service and sales. I’ve worked for outstanding companies such as Hilton Hotels, Experian, and AT&T Mobility. Continuously, learning new coding languages that invest in my knowledge and improve my programming skills.  
 
 ## Website
 
@@ -31,16 +31,28 @@ Elegant HTML template designs with Lorem Ipsum allowing designers to form of the
 ```
 
 
-
 ## Projects
+
+https://jt227b.github.io/Edge-Ledger/
+
+https://github.com/jt227b/Bernotti-Hotel.git
+
+https://github.com/jt227b/reservethisnow.git
+
+https://github.com/jt227b/BeerApp.git
+
+https://jt227b.github.io/Hamburger-Menu/
+
+
+## Applications
+
+https://burger-jt227b.herokuapp.com/
 
 https://jt227b.github.io/MarioBros-Hangman-Game/
 
 https://jt227b.github.io/unit-4-game/
 
 https://jt227b.github.io/TriviaGame/
-
-https://jsstein1995.github.io/Project_1/
 
 https://jt227b.github.io/GifTastic/
 
