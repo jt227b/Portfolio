@@ -452,7 +452,7 @@ header #newsletter label {
 .about .img-overlay {
   background: url("../images/dots.png");
   position: absolute;
-  height: 100%;
+  height: 80%;
   width: 82%;
   top: 34px;
   z-index: 1;
